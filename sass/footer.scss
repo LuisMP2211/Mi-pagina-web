@@ -1,0 +1,178 @@
+.footer
+{   
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.barrafooter
+{
+  margin-top: 7vh;
+  display: flex;
+    width: 100vw; ;
+   height:13.5vh;
+   background: linear-gradient(to top,black,red ,rgb(0, 0, 0));
+}
+
+.texto
+{
+  font-weight: bold;
+  color:white;
+  font-size: 1.1vw;
+padding-left: 5vw;
+padding-top: 6vh;
+}
+
+/*facebook */
+
+.imgfacebook 
+{
+  height: 6vh;
+  width: 6vw;
+padding-left: 3.5vw;
+padding-top: 4.5vh;
+}
+.imgfacebook img
+{
+  height: 5vh;
+  width: 3.2vw;
+  transition: width 0.3s, height 0.3s;
+}
+
+.imgfacebook img:hover
+{
+  height: 5.5vh;
+  width: 3.5vw;
+}
+
+
+/*instagram*/ 
+
+.imginstagram 
+{
+  height: 6vh;
+  width: 6vw;
+  padding-left: 4.5vw;
+  padding-top: 4.5vh;
+
+}
+
+.imginstagram img
+{
+  height: 5vh;
+  width: 3.2vw;
+  transition: width 0.3s, height 0.3s;
+}
+
+
+.imginstagram img:hover
+{
+
+  height: 5.5vh;
+  width: 3.5vw;
+  
+}
+
+/*youtube*/
+
+.imgyoutube
+{
+  height: 6vh;
+  width: 6vw;
+  padding-left: 5vw;
+  padding-top: 4.5vh;
+padding-right: 4.5vw ;
+}
+
+.imgyoutube img
+{
+  height: 5vh;
+  width: 3.2vw;
+  transition: width 0.3s, height 0.3s;
+}
+
+.imgyoutube img:hover
+{
+  height: 5.5vh;
+  width: 3.5vw;
+}
+
+.texto2
+{
+  font-weight: bold;
+  color:white;
+  font-size: 1.1vw;
+padding-left: 11vw;
+padding-top: 6vh;
+} 
+
+/*whatsapp*/
+
+.imgwhatsapp
+{
+  height: 7vh;
+  width: 7vw;
+padding-left: 4vw;
+padding-top: 5vh;
+
+}
+
+.imgwhatsapp img
+{
+  height: 5vh;
+  width: 3.2vw;
+  transition: width 0.3s, height 0.3s;
+}
+
+.imgwhatsapp img:hover
+{
+  height: 5.5vh;
+  width: 3.5vw;
+}
+
+/*gmail*/
+
+.imggmail
+{
+  height: 7vh;
+  width: 7vw;
+  padding-left: 3.5vw;
+  padding-top: 5vh;
+padding-right: 45px;
+}
+
+
+.imggmail img{
+  height: 5vh;
+  width: 5vw;
+  transition: width 0.3s, height 0.3s;
+}
+
+.imggmail img:hover
+{
+  height: 5.5vh;
+  width: 5.5vw;
+}
+
+/*discord*/
+
+.imgdiscord
+{
+  height: 7vh;
+  width: 7vw;
+  padding-left: 4vw;
+  padding-top: 5vh;
+
+}
+
+.imgdiscord img
+{
+  height: 5vh;
+  width: 3.2vw;
+  transition: width 0.3s, height 0.3s;
+}
+
+.imgdiscord img:hover
+{
+  height: 6vh;
+  width: 3.5vw;
+}
+

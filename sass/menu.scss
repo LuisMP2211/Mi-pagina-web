@@ -1,0 +1,321 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+    }
+    
+    body
+    {
+    overflow-x: hidden;	
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    }
+     
+    /*logo*/
+    .logo
+    {
+      width: 12vw ;
+      height: 13vh;
+     padding-left: 2.4vw;
+    
+    }
+    /*BORDES*/
+    .barra
+    {
+    box-sizing: border-box;
+     width:100vw ;
+     height:0.5vh;
+    background-color: rgb(0, 0, 0);
+    }
+    
+    .barramenu1
+    {
+      box-sizing: border-box;
+       width: 12vw; ;
+      height:13.5vh;
+      background: linear-gradient(to top,black,red ,rgb(0, 0, 0));
+    }
+    .barramenu2
+    { 
+        display: flex;
+      box-sizing: border-box;
+      width: 76.7vw; 
+     height:13.5vh;
+     background: linear-gradient(to top,black,red ,rgb(0, 0, 0));
+    
+    }
+    .barramenu3
+    {
+      box-sizing: border-box;
+      width: 11.3vw; ;
+     height:13.5vh;
+     background: linear-gradient(to top,black,red ,rgb(0, 0, 0));
+    }
+    
+    .barramenu4
+    {
+    display: flex;
+    box-sizing: border-box;
+    width: 63vw; ;
+     height: 5.5vh;
+      background: linear-gradient(180deg,black,rgb(255, 0, 0) ,rgb(0, 0, 0));
+    border-radius: 20px;
+    margin-left: 0.5vw;
+    }
+    
+    
+    
+    /*CONFIGURCION DEL MENU*/
+    .menu
+    {
+    margin:0;
+    padding: 0;
+    display: flex;
+    }
+    
+    /*alineacion y separacion de lista*/
+    
+    
+    .textomenu 
+    {
+    list-style: none;
+    font-weight: bold;
+    display: flex;
+    overflow: hidden;
+    
+    
+    }
+    
+    /*div de cada texto*/
+    .item1{
+        
+        margin-left: 4vw;
+        margin-top: 4.5vh;
+        width:6.3vw;
+        height: 5vh;
+        padding-left: 1vw;
+    
+    }
+    .item2{
+    
+        margin-left: 7vw;
+        margin-top: 4.5vh;
+        width:7.5vw;
+        height: 5vh;
+        .a1{
+        padding-left: 1vw;
+        }
+        
+    }
+    
+    .item3{
+        margin-left: 7vw;
+        margin-top: 4.5vh;
+        width:10.3vw;
+        height: 5vh;
+        padding-left: 1vw;
+        
+    }
+    .item4{
+    
+        margin-left: 7vw;
+        margin-top: 4.5vh;
+        width: 8vw;
+        height: 5vh;
+        padding-left: 1vw;
+    }
+    
+    .item5{
+    
+        margin-left: 7vw;
+        margin-top: 4.5vh;
+        width: 7vw;
+        height: 5vh;
+        padding-left: 1vw;
+    }
+    
+    /*personalizacion de cada texto del div*/
+        
+    .textomenu .item1 .a1 , .item2 .a1 , .item3 .a1 , .item4 .a1 , .item5 .a1
+    {
+    color: white;
+    display: block;
+    font-size: 1.8vw;
+    }
+    
+    .item1:hover ,.item1:hover,.item2:hover,.item3:hover,.item4:hover,.item5:hover
+    {
+    .a1
+    {
+    color: #000;
+    }
+    }
+    
+    
+    /*desplegable*/
+    .des
+    {
+     display: none;
+    
+    }
+    
+    .textomenu .item2:hover .des
+    {
+     display: block;
+    }
+    
+    .textomenu .item3:hover .des
+    {
+     display: block;
+    }
+    
+    .des
+    {
+        position: absolute;
+        box-sizing: border-box;	
+        border: 0.3vw solid rgb(0, 0, 0);
+        width: 13vw;
+    overflow: hidden;
+    
+    }
+    
+    .desple
+    {
+    background-color: #3a0303;
+    
+    }
+    
+    
+    .des .desple .a2
+    {
+    color: rgb(255, 0, 0);
+    font-size: 1.5vw;
+    padding-left: 1vw;
+    }
+    
+    
+    .desple:hover
+    {
+    .a2	
+    {
+    color: rgb(0, 0, 0);
+    }
+    }
+    
+    
+    .desple:hover
+    {
+        background-color: #fc0505;
+    }
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*alineacion y separacion de imagenes del  menu*/
+    .imguser
+    {
+    padding-top: 4vh;
+    }
+    .imguser img
+    {
+        height: 4.7vh;
+        width: 2.6VW;
+        transition: width 0.3s, height 0.3s;
+    }
+    
+    .imguser img:hover
+    {
+      height: 5.1vh;
+      width: 3VW;
+    }
+    /*buscar*/
+    
+    .buscar{
+        position: absolute;
+        left: 83vw;
+    bottom: 77.5vh;
+        transform: translate(-50%,-50%);
+      padding: 1.2vh
+    }
+    
+    .input {
+        outline: none;
+        box-sizing: border-box;
+        height: 3vh;
+        width: 0vw;
+        padding: 0 1vw;
+        color: #000;
+        border-radius: 50px;
+        font-size: px;
+        border: 1px solid rgb(201, 3, 3);
+        transition: all .7s ease;
+    }
+    
+    ::placeholder {
+        color: rgb(92, 92, 92);
+    
+    }
+    
+    .circulo {
+        position: absolute;
+        right: 0vw;
+        top: 0vh;
+        width: 3.3vw;
+        height: 5.6vh;
+        background: rgb(201, 3, 3);
+        line-height: 6vh;
+        border-radius: 50%;
+        text-align: center;
+        cursor: pointer;
+        transition: .5s;
+    }
+    .circulo i {
+        font-size: 0.9vw;
+        color: white;
+        line-height: 6vh;
+        transition: all .7s ease;
+    }
+    
+    .buscar:hover .input {
+        width: 26vw;
+        height: 3vh;
+    }
+    
+    .buscar:hover i{
+        transform: rotate(-360deg);
+    }
+    
+    .circulo:hover{
+        background: #cc0000;
+    }
+    
+    /*texto*/
+    .textolema
+    {
+    color:white;
+    font-size: 1vw;
+    padding-left: 2.7vw;
+    padding-top: 1.5vh;
+    }
+    
+    .imglema
+    {
+     width: 5vw;
+     height: 5vh;
+        padding-left: 1.5vw;
+     padding-top: 1vh;
+    }
+    
