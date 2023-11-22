@@ -76,45 +76,52 @@ body {
 
 /*div de cada texto*/
 .item1 {
-  margin-left: 4vw;
-  margin-top: 4.5vh;
-  width: 6.3vw;
-  height: 5vh;
-  padding-left: 1vw;
-}
 
-.item2 {
-  margin-left: 7vw;
+  margin-top: 4.5vh; 
+}
+.item1 .a1 {
+    padding-left: 5vw;
+  }
+
+
+  .item2 {
+  margin-left: 6vw;
   margin-top: 4.5vh;
-  width: 7.5vw;
-  height: 5vh;
+ 
 }
 .item2 .a1 {
-  padding-left: 1vw;
+  padding-left: 3.9vw;
 }
 
 .item3 {
   margin-left: 7vw;
   margin-top: 4.5vh;
-  width: 10.3vw;
-  height: 5vh;
-  padding-left: 1vw;
+ 
+
 }
+.item3 .a1 {
+  padding-left: 2.3vw;
+}
+
+
 
 .item4 {
   margin-left: 7vw;
   margin-top: 4.5vh;
-  width: 8vw;
-  height: 5vh;
-  padding-left: 1vw;
+
+  padding-left: 2vw;
 }
+
+
 
 .item5 {
   margin-left: 7vw;
   margin-top: 4.5vh;
-  width: 7vw;
-  height: 5vh;
-  padding-left: 1vw;
+  
+
+}
+.item5 .a1 {
+  padding-left: 1.2vw;
 }
 
 /*personalizacion de cada texto del div*/
@@ -147,6 +154,7 @@ body {
   border: 0.3vw solid rgb(0, 0, 0);
   width: 13vw;
   overflow: hidden;
+  border-radius: 1vw;
 }
 
 .desple {
@@ -170,6 +178,7 @@ body {
 /*alineacion y separacion de imagenes del  menu*/
 .imguser {
   padding-top: 4vh;
+ padding-left: 2vw;
 }
 
 .imguser img {
