@@ -91,11 +91,9 @@
 /*Card perifericos*/
 .cardp {
   width: 100vw;
-  height: 54vh;
+  height: 105vh;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  padding-left: 6vw;
 }
 
 .cardp .contenidop {
@@ -107,7 +105,7 @@
   box-shadow: 0 0vh 0vw rgba(243, 2, 2, 0.2);
   overflow: hidden;
   margin-top: 5vh;
-  margin-right: 8vw;
+  margin-left: 3.6vw;
   text-align: center;
   transition: all 0.25s;
 }
